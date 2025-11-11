@@ -46,7 +46,7 @@ public class Roster {
     }
 
     private static void addCurve(int[] arr, int amount) {
-        // how am I expected to add in place? int[] doesnt extend Object, its passed by value not reference
+        // how am I expected to add in place? int[] doesnt extend Object, its passed completly by value not reference
 
         for (int i = 0; i < scores.length; i++) {
             scores[i] = Math.min(100, scores[i] + amount);

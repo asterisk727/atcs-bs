@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class TicketSim {
-    
     private static Scanner stdin;
     private static ArrayList<String> line = new ArrayList<>();
     private static ArrayList<String> waitlist = new ArrayList<>();
